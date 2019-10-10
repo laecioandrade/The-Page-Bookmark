@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/clique"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:maxLines="1"
+                        android:padding="1dp"
+                        android:textStyle="bold"
+                        android:text="Titulo"
+                        android:textColor="#9E9E9E"
+                        android:textSize="19dp" />
+
+
+                    <TextView
+                        android:id="@+id/textViewAuthor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:maxLines="1"
+                        android:padding="1dp"
+                        android:text="Autor"
+                        android:textColor="#000"
+                        android:textSize="13dp" />
+
+                    <ProgressBar
+                        android:id="@+id/determinateBar"
+                        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+                        android:layout_width="311dp"
+                        android:layout_height="wrap_content"
+                        android:progress="20" />
+
+                    <TextView
+                        android:id="@+id/textViewUrl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:padding="1dp"
+                        android:text="20% Concluido"
+                        android:textColor="#9E9E9E"
+                        android:textSize="7pt" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutDelteBt"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:layout_height="120dp">
+                <ImageButton
+                    android:id="@+id/btnAdicionar"
+                    android:background="@drawable/ic_add_page"
+                    android:layout_width="33dp"
+                    android:layout_height="40dp" />
+                <ImageButton
+                    android:id="@+id/btnRemover"
+                    android:background="@drawable/ic_delete_black"
+                    android:layout_width="33dp"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

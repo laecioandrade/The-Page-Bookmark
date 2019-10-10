@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project PDSI</string>
+    <string name="title_activity_login">Project PDSI</string>
+    <string name="title_activity_init">Livros</string>
+    <string name="title_activity_register_book">Cadastrar Livro</string>
+    <string name="title_activity_register_user">Cadastrar Usuario</string>
+
+</resources>

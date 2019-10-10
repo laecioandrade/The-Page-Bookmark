@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "599832862161",
+    "firebase_url": "https://lembrelivros.firebaseio.com",
+    "project_id": "lembrelivros",
+    "storage_bucket": "lembrelivros.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599832862161:android:602abe2d2bddffaaf6d4f0",
+        "android_client_info": {
+          "package_name": "br.com.laecio.projectpdsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599832862161-vo4nkjj3eogrg8as29hj968g8ap6orup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT67BiBYyKAzPd2spt_kJuPVWEom61QC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599832862161-vo4nkjj3eogrg8as29hj968g8ap6orup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
